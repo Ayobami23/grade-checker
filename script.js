@@ -5,7 +5,9 @@ const form = document.getElementById('form');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  input.value >= 70
+  input.value >= 101
+    ? (result.textContent = 'Input nothing more than 100')
+    : input.value >= 70
     ? (result.textContent = 'A')
     : input.value >= 60
     ? (result.textContent = 'B')
