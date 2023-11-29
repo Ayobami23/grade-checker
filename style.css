@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  margin: 100px auto;
+  text-align: center;
+  line-height: 50px;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container input {
+  padding: 10px;
+  outline: none;
+}
+
+.container button {
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  background: rgb(5, 141, 214);
+  border-radius: 4px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
